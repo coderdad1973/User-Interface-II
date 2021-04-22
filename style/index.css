@@ -53,9 +53,11 @@ table {
       /* END RESET */
 *{
     box-sizing: border-box;
-    
+    /* border: red solid; */
 }
-html {font-size: 62.5%}
+html {
+    font-size: 62.5%
+}
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -274,6 +276,10 @@ h1{
         justify-content: center;
     }
 
+    header nav {
+        width: 5%;
+    }
+
  @media (max-width: 500px) {
 	
      header {
@@ -282,3 +288,20 @@ h1{
         width: 98%;
         justify-content: center;
     }
+
+    header nav {
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+        width: 98%;
+        
+    }
+    .banner-text {
+        width: 5%;
+        text-align: center;
+        text-justify: auto;
+
+
+
+    }
+}
